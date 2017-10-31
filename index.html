@@ -1,20 +1,113 @@
+<!DOCTYPE html>
 <html>
-
-
-
-
 <head>
-  <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="app.css">
 </head>
-
 <body>
 
-<div id="tester" style="width:600px;height:250px;"></div>
+<!-- onsubmit="return false" -->
+
+<form onsubmit="return false">
+  <div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col">
+  <div class="form-group row">
+    <label for="threshold-value" class="col-2 col-form-label">Threshold Value</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="threshold-value">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="January" class="col-2 col-form-label">January</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="january">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="February" class="col-2 col-form-label">February</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="february">
+    </div>
+  </div>
+    <div class="form-group row">
+    <label for="March" class="col-2 col-form-label">March</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="march">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="April" class="col-2 col-form-label">April</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="april">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="May" class="col-2 col-form-label">May</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="may">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="June" class="col-2 col-form-label">June</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="june">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="July" class="col-2 col-form-label">July</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="july">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="August" class="col-2 col-form-label">August</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="august">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="September" class="col-2 col-form-label">September</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="september">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="October" class="col-2 col-form-label">October</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="october">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="November" class="col-2 col-form-label">November</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="november">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="December" class="col-2 col-form-label">December</label>
+    <div class="col-2">
+      <input class="form-control" type="number" id="december">
+    </div>
+  </div>
+  </div>
+  <div class="col-6" id="tester" style="width:600px;height:600px;">
+  </div>
 
 
+  </div>
+  </div>
+  <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+  <button class="btn btn-primary" onclick="myFunction()">Graph Data</button>
+  <!-- <div class="col-8" id="tester" style="width:600px;height:600px;">
+  </div> -->
+  <!-- <div id="tester" style="width:600px;height:250px;"></div> -->
+</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
-
 </html>
